@@ -166,7 +166,7 @@ namespace VContainer.Unity
 
         protected virtual void Configure(IContainerBuilder builder) { }
 
-        public void Dispose()
+        public virtual void Dispose()
         {
             DisposeCore();
             if (this != null)
