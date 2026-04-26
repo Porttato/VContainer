@@ -6,12 +6,11 @@ import lunrSearchPlugin from "docusaurus-lunr-search";
 const config: Config = {
   title: 'VContainer',
   tagline: 'The extra fast DI (Dependency Injection) for Unity Game Engine',
-  url: 'https://vcontainer.hadashikick.jp',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  url: 'https://porttato.github.io',
+  baseUrl: '/VContainer',
+  onBrokenLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'hadashiA', // Usually your GitHub org/user name.
+  organizationName: 'Porttato', // Usually your GitHub org/user name.
   projectName: 'VContainer', // Usually your repo name.
 
   i18n: {
@@ -35,7 +34,7 @@ const config: Config = {
           sidebarCollapsed: false,
           sidebarCollapsible: false,
           routeBasePath: '/',
-          editUrl: 'https://github.com/hadashiA/VContainer/edit/master/website/',
+          editUrl: 'https://github.com/Porttato/VContainer/edit/master/website/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -92,7 +91,7 @@ const config: Config = {
       ],
     },
     footer: {
-      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://twitter.com/hadashiA">hadashiA</a>`,
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://twitter.com/hadashiA">hadashiA</a>, Documentation updated and improved by BaalEvan`,
       // logo: {
       //   alt: 'VContainer',
       //   src: 'img/favicon.png',
